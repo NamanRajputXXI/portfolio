@@ -40,7 +40,7 @@ const Navbar = () => {
           <FaLinkedin size={30} />
         </a>
         <a
-          href="https://www.linkedin.com/in/namanrajput21/"
+          href="https://github.com/NamanRajputXXI"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
@@ -48,7 +48,7 @@ const Navbar = () => {
           <FaGithub size={30} />
         </a>
         <a
-          href="https://www.linkedin.com/in/namanrajput21/"
+          href="https://www.instagram.com/hiienaman/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -56,7 +56,7 @@ const Navbar = () => {
           <FaInstagram size={30} />
         </a>
         <a
-          href="https://www.linkedin.com/in/namanrajput21/"
+          href="https://t.me/hienaman"
           target="_blank"
           rel="noopener noreferrer"
         >
