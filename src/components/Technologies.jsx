@@ -52,7 +52,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(5)}
         >
-          <SiMongodb className="text-7xl text-cyan-500" />
+          <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           initial="initial"
