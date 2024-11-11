@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/heroProfile.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 const containerVariant = {
@@ -31,7 +31,7 @@ const Hero = () => {
             <motion.img
               src={profilePic}
               alt="Naman Rajput"
-              className="border border-stone-900 rounded-3xl"
+              className="border border-stone-900 sm:h-[700px] h-[400px] rounded-3xl"
               width={650}
               height={650}
               initial={{ x: 100, opacity: 0 }}
@@ -49,7 +49,7 @@ const Hero = () => {
           >
             <motion.h2
               variants={childVariant}
-              className="pb-2 text-4xl tracking-tighter lg:text-8xl"
+              className="pb-2 sm:mt-0 mt-5 text-4xl tracking-tighter lg:text-8xl"
             >
               Naman Rajput
             </motion.h2>
