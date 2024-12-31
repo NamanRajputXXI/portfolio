@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/weather-app.jpg";
+import project2 from "../assets/projects/cultYoga.webp";
+import project3 from "../assets/projects/lms.jpg";
+import project4 from "../assets/projects/t2h.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1+ years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like React.js, Next js Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -33,32 +33,51 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "CultYoga",
+    title: "Mausam",
     image: project1,
     description:
-      "A fully functional YOga Platform website with features like Disease Based yoga , Diet Program, Filteration and user authentication.",
-    technologies: ["React.js", "Tailwind", "Express", "Node.js", "MongoDB"],
+      "Mausam is a feature-rich weather app built with React, offering a sleek UI, search functionality, third-party integrations, and dark/light mode support. It includes interactive weather charts for an enhanced user experience.",
+    technologies: [
+      "React.js",
+      "Tailwind",
+      "Tanstack Query",
+      "ShadcnUi",
+      "ThirdParty API Integration",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "CultYoga",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Cultyoga is a modern yoga platform offering pose libraries, disease-based yoga solutions, progress tracking, video tutorials, personalized profiles, dark/light mode, and mobile compatibility for an engaging wellness experience.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "ExpressJS",
+      "MongoDb",
+      "Authentication",
+    ],
   },
   {
-    title: "Portfolio Website",
+    title: "Learning Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A cutting-edge LMS built with the MERN stack, Redux, React Query, and Shadcn UI, featuring authentication, caching, search, sorting, and advanced functionalities for learning management.",
+    technologies: [
+      "React.js",
+      "Redux",
+      "React query",
+      "ShadCN-UI",
+      "ExpressJS",
+      "Node.js",
+    ],
   },
   {
-    title: "Blogging Platform",
+    title: "MakeMyHoneymoon",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A stunning TripToHoneymoon website built with modern technologies, offering dynamic packages, seamless navigation, secure booking, and a personalized experience for couples to plan their perfect honeymoon.",
+    technologies: ["NextJS", "MongoDb", "Tailwind CSS"],
   },
 ];
 

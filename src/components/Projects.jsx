@@ -35,7 +35,7 @@ const Projects = () => {
       >
         Projects
       </motion.h2>
-      <div className="flex max-w-7xl w-full mx-auto flex-col lg:flex-row items-center justify-center gap-10">
+      <div className="flex max-w-7xl w-full mx-auto flex-col lg:flex-row items-center justify-center gap-5">
         {currentItems.map((project, index) => (
           <div
             key={index}
@@ -45,14 +45,14 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full flex items-center justify-center lg:w-1/4"
+              className="w-full flex items-center justify-center lg:w-full"
             >
               <img
                 src={project.image}
                 width={300}
                 height={300}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 h-64 rounded"
               />
             </motion.div>
             <motion.div
@@ -62,7 +62,7 @@ const Projects = () => {
               className="w-full text-center max-w-xl  lg:px-0 lg:w-3/4"
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-              <p className="mb-4 sm:text-base text-sm text-stone-400">
+              <p className="mb-4 sm:text-sm text-xs text-stone-400">
                 {project.description}
               </p>
               <div className="flex flex-wrap justify-center gap-2">
